@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="dcs_aaio_api_key" version_id="1100000" version_string="1.1.0"><![CDATA[API Key]]></phrase>
+  <phrase title="dcs_aaio_notify_url" version_id="1100000" version_string="1.1.0"><![CDATA[Notification URL]]></phrase>
+  <phrase title="dcs_aaio_paste_callback_url" version_id="1100000" version_string="1.1.0"><![CDATA[Paste it in your store settings at https://aaio.io/cabinet/merchants]]></phrase>
+  <phrase title="dcs_aaio_secret_key_1" version_id="1100000" version_string="1.1.0"><![CDATA[Secret Key 1]]></phrase>
+  <phrase title="dcs_aaio_shop_id" version_id="1100000" version_string="1.1.0"><![CDATA[Shop ID]]></phrase>
+  <phrase title="dcs_you_must_enter_all_details" version_id="1100000" version_string="1.1.0"><![CDATA[You must enter all the details!]]></phrase>
+</phrases>

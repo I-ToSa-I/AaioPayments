@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[DevCore Studios] Aaio Payments",
+    "description": "",
+    "version_id": 1100000,
+    "version_string": "1.1.0",
+    "dev": "ToSa",
+    "dev_url": "https://zelenka.guru/tosa",
+    "faq_url": "https://zelenka.guru/tosa",
+    "support_url": "https://zelenka.guru/tosa",
+    "extra_urls": {
+        "Мой форум": "https://devcore.fun"
+    },
+    "require": [],
+    "icon": ""
+}

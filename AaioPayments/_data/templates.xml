@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="payment_profile_dcsAaio" version_id="1100000" version_string="1.1.0"><![CDATA[<xf:textboxrow name="options[merchant_id]" 
+			   value="{$profile.options.merchant_id}"
+			   label="{{ phrase('dcs_aaio_shop_id') }}"
+			   hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<xf:textboxrow name="options[secret]" 
+			   value="{$profile.options.secret}" 
+			   label="{{ phrase('dcs_aaio_secret_key_1') }}"
+			   hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<xf:textboxrow name="options[api_key]" 
+			   value="{$profile.options.api_key}" 
+			   label="{{ phrase('dcs_aaio_api_key') }}"
+			   hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<xf:formrow label="{{ phrase('dcs_aaio_notify_url') }}"
+			hint="{{ phrase('dcs_aaio_paste_callback_url') }}">
+<span>{$profile.getPaymentHandler().getCallbackUrl()}</span>
+</xf:formrow>
+
+<hr class="formRowSep" />]]></template>
+</templates>
